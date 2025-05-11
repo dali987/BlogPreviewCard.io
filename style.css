@@ -57,7 +57,16 @@ body{
     font-size: 1.5rem;
     margin: 20px 0;
     font-weight: 800;
-    
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.card h1:hover{
+    color: hsl(47, 88%, 63%);
+    cursor:pointer;
 }
 
 .card .description{
